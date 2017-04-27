@@ -2,74 +2,95 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26989" started-at="2017-04-27T11:02:31Z" finished-at="2017-04-27T11:02:58Z">
+  <suite name="Suite" duration-ms="22912" started-at="2017-04-27T12:53:05Z" finished-at="2017-04-27T12:53:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26989" started-at="2017-04-27T11:02:31Z" finished-at="2017-04-27T11:02:58Z">
+    <test name="Test" duration-ms="22912" started-at="2017-04-27T12:53:05Z" finished-at="2017-04-27T12:53:28Z">
+      <class name="com.test.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.NewTest@2ef3436a]" name="beforeTest" is-config="true" duration-ms="4260" started-at="2017-04-27T20:53:05Z" finished-at="2017-04-27T20:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.NewTest1@64cefc3a]" name="beforeTest" is-config="true" duration-ms="2582" started-at="2017-04-27T20:53:09Z" finished-at="2017-04-27T20:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.test.NewTest@2ef3436a]" name="f" duration-ms="11132" started-at="2017-04-27T20:53:11Z" finished-at="2017-04-27T20:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.NewTest1@64cefc3a]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-04-27T20:53:28Z" finished-at="2017-04-27T20:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.NewTest@2ef3436a]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-27T20:53:28Z" finished-at="2017-04-27T20:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.NewTest -->
       <class name="com.test.NewTest1">
-        <test-method status="FAIL" signature="f1()[pri:0, instance:com.test.NewTest1@2be94b0f]" name="f1" duration-ms="11574" started-at="2017-04-27T19:02:47Z" finished-at="2017-04-27T19:02:58Z">
+        <test-method status="FAIL" signature="f1()[pri:0, instance:com.test.NewTest1@64cefc3a]" name="f1" duration-ms="4904" started-at="2017-04-27T20:53:23Z" finished-at="2017-04-27T20:53:28Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='所有订单']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"at-field-username"}
   (Session info: chrome=54.0.2840.87)
   (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 95 milliseconds
+Command duration or timeout: 247 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-4D3USP3', ip: '192.168.117.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+System info: host: 'DESKTOP-4D3USP3', ip: '192.168.117.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_17'
+*** Element info: {Using=id, value=at-field-username}
+Session ID: f1c25a5b9de66144b4667d8a0b2cc7e0
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir25552_4904}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 80dc35230c693ef38d2a85c2419268c7
-*** Element info: {Using=xpath, value=//a[text()='所有订单']}]]>
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir32428_30048, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=54.0.2840.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='所有订单']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"at-field-username"}
   (Session info: chrome=54.0.2840.87)
   (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 95 milliseconds
+Command duration or timeout: 247 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-4D3USP3', ip: '192.168.117.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+System info: host: 'DESKTOP-4D3USP3', ip: '192.168.117.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_17'
+*** Element info: {Using=id, value=at-field-username}
+Session ID: f1c25a5b9de66144b4667d8a0b2cc7e0
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir25552_4904}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 80dc35230c693ef38d2a85c2419268c7
-*** Element info: {Using=xpath, value=//a[text()='所有订单']}
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir32428_30048, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=54.0.2840.87, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.test.NewTest1.f1(NewTest1.java:42)
+	at com.test.NewTest1.f1(NewTest1.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
@@ -77,28 +98,6 @@ Session ID: 80dc35230c693ef38d2a85c2419268c7
           </reporter-output>
         </test-method> <!-- f1 -->
       </class> <!-- com.test.NewTest1 -->
-      <class name="com.test.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.NewTest@270421f5]" name="beforeTest" is-config="true" duration-ms="3691" started-at="2017-04-27T19:02:31Z" finished-at="2017-04-27T19:02:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.NewTest1@2be94b0f]" name="beforeTest" is-config="true" duration-ms="2461" started-at="2017-04-27T19:02:35Z" finished-at="2017-04-27T19:02:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.test.NewTest@270421f5]" name="f" duration-ms="9216" started-at="2017-04-27T19:02:38Z" finished-at="2017-04-27T19:02:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.NewTest@270421f5]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-04-27T19:02:58Z" finished-at="2017-04-27T19:02:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.NewTest1@2be94b0f]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-27T19:02:58Z" finished-at="2017-04-27T19:02:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.test.NewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
