@@ -5,15 +5,16 @@
     <classes>
       <class name="com.test.NewTest1">
         <methods>
+          <include name="beforeTest"/>
           <include name="f1"/>
           <include name="afterTest"/>
-          <include name="beforeTest"/>
         </methods>
       </class> <!-- com.test.NewTest1 -->
       <class name="com.test.NewTest">
         <methods>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f"/>
         </methods>
       </class> <!-- com.test.NewTest -->
     </classes>

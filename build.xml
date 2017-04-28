@@ -3,8 +3,8 @@
     <echo  message="import libs" />
     <path id="run.classpath">
         <fileset dir="${basedir}">
-            <include name="lib/testng.jar" />
-            <include name="lib/sikuli-script.jar" />
+            <include name="lib/testng-6.8.5.jar" />
+           
         </fileset>
         <fileset dir="${basedir}/lib/selenium">
             <include name="selenium-server-standalone-2.53.0.jar" />
@@ -13,19 +13,19 @@
     </path>
     <taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="run.classpath" />
     <target name="clean">
-        <delete dir="build"/>
+        <delete dir="bin"/>
     </target>
     <target name="compile" depends="clean">
         <echo message="mkdir"/>
-        <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes" debug="on"  includeAntRuntime="false">
+        <mkdir dir="bin/classes"/>
+        <javac srcdir="src" destdir="bin/classes" debug="on"  includeAntRuntime="false">
             <classpath refid="run.classpath"/>
         </javac>
     </target>
     <path id="runpath"> 
          <path refid="run.classpath"/> 
-         <pathelement location="build/classes"/> 
-       </path> 
+         <pathelement location="bin/classes"/> 
+    </path> 
     <target name="run" depends="compile">
         <testng  classpathref="runpath"  outputDir="test-output">
             <xmlfileset dir="${basedir}" includes="testng.xml"/>

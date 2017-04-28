@@ -25,8 +25,8 @@ public class NewTest {
 
     @BeforeTest
     public void beforeTest(){
-  	  System.setProperty("webdriver.chrome.bin","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");/*(Ĭ�ϰ�װ�����������Ҫд��δ���)*/
-  	  System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
+//  	  System.setProperty("webdriver.chrome.bin","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");/*(Ĭ�ϰ�װ�����������Ҫд��δ���)*/
+  	  System.setProperty("webdriver.chrome.driver", "./res/chromedriver.exe");
   	  driver=new ChromeDriver();
 
   	  
@@ -52,9 +52,8 @@ public class NewTest {
          driver.findElement(By.id("at-field-password")).sendKeys("010txd!");
          driver.findElement(By.id("at-btn")).click();
          Thread.sleep(5000);
-         driver.findElement(By.xpath("//a[text()='所有订单']")).click();
-//         driver.findElement(By.xpath("//a[contains(text(),’所有订单’)]"));
-//         driver.findElement(By.xpath("//a[text()='所有订单']")).click();
+         driver.findElement(By.xpath("//a[text()='suoyoudingdan']")).click();
+
     }
 
    

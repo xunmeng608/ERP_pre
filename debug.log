@@ -13,3 +13,22 @@
 [0427/205327:ERROR:process_reader_win.cc(142)] SuspendThread: 拒绝访问。 (0x5)
 [0427/205327:ERROR:exception_snapshot_win.cc(87)] thread ID 34808 not found in process
 [0427/205327:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0427/211048:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7d5000 of 45056 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0427/211048:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[0427/211048:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0427/212649:ERROR:process_reader_win.cc(142)] SuspendThread: 拒绝访问。 (0x5)
+[0427/212649:ERROR:exception_snapshot_win.cc(87)] thread ID 40036 not found in process
+[0427/212649:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0427/212649:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0428/112155:ERROR:process_reader_win.cc(233)] ReadMemory at 0xd56000 of 40960 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0428/112155:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[0428/112155:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0428/112157:ERROR:process_reader_win.cc(233)] ReadMemory at 0x4f5000 of 45056 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0428/112157:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[0428/112157:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0428/161726:ERROR:process_reader_win.cc(233)] ReadMemory at 0xac5000 of 45056 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0428/161726:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[0428/161726:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0428/161726:ERROR:process_reader_win.cc(233)] ReadMemory at 0x885000 of 45056 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0428/161726:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[0428/161726:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
